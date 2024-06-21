@@ -7,4 +7,10 @@ Install dependencies
 npm i -D prisma @prisma/client standard-version nodemon dotenv 
 ```
 
+To publish to NPM registry:
+
+```bash
+npm publish
+```
+
 
