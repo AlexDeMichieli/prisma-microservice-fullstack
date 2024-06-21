@@ -1,0 +1,24 @@
+{
+  "name": "@alexdemichieli/prisma-schema",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "generate": "npx prisma generate",
+    "postinstall": "npm run generate",
+    "seed": "node seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prisma/client": "^5.15.1",
+    "prisma": "^5.15.1"
+  },
+  "peerDependencies": {
+    "@prisma/client": ">=5"
+  }
+}
