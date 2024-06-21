@@ -13,4 +13,10 @@ To publish to NPM registry:
 npm publish
 ```
 
+Before pushing again
+
+```bash
+git pull
+```
+
 
