@@ -20,5 +20,8 @@
   },
   "peerDependencies": {
     "@prisma/client": ">=5"
+  },
+  "dependencies": {
+    "standard-version": "^9.5.0"
   }
 }
